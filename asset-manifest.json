@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Sasa405-flashcardapp-spa-final-project_sasa405/static/css/main.0dcded82.css",
+    "main.js": "/Sasa405-flashcardapp-spa-final-project_sasa405/static/js/main.4d9abba6.js",
+    "static/media/pexels-pixabay-247819.jpg": "/Sasa405-flashcardapp-spa-final-project_sasa405/static/media/pexels-pixabay-247819.595fb984e6d73909e82f.jpg",
+    "index.html": "/Sasa405-flashcardapp-spa-final-project_sasa405/index.html",
+    "main.0dcded82.css.map": "/Sasa405-flashcardapp-spa-final-project_sasa405/static/css/main.0dcded82.css.map",
+    "main.4d9abba6.js.map": "/Sasa405-flashcardapp-spa-final-project_sasa405/static/js/main.4d9abba6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dcded82.css",
+    "static/js/main.4d9abba6.js"
+  ]
+}
