@@ -22,7 +22,10 @@ const FlashcardForm = ({ addFlashcard }) => {
   return (
     <form onSubmit={handleSubmit}>
       <div className="form-group">
-        <label htmlFor="questionInput">Question:</label>
+      <label className="label" htmlFor="questionInput" style={{ color: "white" }}>
+  Question:
+</label>
+
         <input
           type="text"
           className="form-control"
@@ -33,7 +36,7 @@ const FlashcardForm = ({ addFlashcard }) => {
         />
       </div>
       <div className="form-group">
-        <label htmlFor="answerInput">Answer:</label>
+        <label className="label" htmlFor="answerInput" style={{ color: "white" }}>Answer:</label>
         <input
           type="text"
           className="form-control"
@@ -51,59 +54,6 @@ const FlashcardForm = ({ addFlashcard }) => {
 };
 
 export default FlashcardForm;
-
-
-
-
-// import React, { useState } from "react";
-
-// const FlashcardForm = ({ addFlashcard }) => {
-//   const [question, setQuestion] = useState("");
-//   const [answer, setAnswer] = useState("");
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     addFlashcard(question, answer);
-//     setQuestion("");
-//     setAnswer("");
-//   };
-
-//   return (
-//     <form onSubmit={handleSubmit} className="mb-3">
-//       <div className="form-group">
-//         <input
-//           type="text"
-//           className="form-control"
-//           placeholder="Enter question"
-//           value={question}
-//           onChange={(e) => setQuestion(e.target.value)}
-//         />
-//       </div>
-//       <div className="form-group">
-//         <input
-//           type="text"
-//           className="form-control"
-//           placeholder="Enter answer"
-//           value={answer}
-//           onChange={(e) => setAnswer(e.target.value)}
-//         />
-//       </div>
-//       <button type="submit" className="btn btn-primary">
-//         Add Flashcard
-//       </button>
-//     </form>
-//   );
-// };
-
-// export default FlashcardForm;
-
-
-
-
-
-
-
-
 
 
 
